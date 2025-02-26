@@ -218,3 +218,9 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 
 
 #  фотки в папке
+# 9 
+# Test Case	Correct Test Type	Explanation
+# A (test_end_to_end_order_process)	System Testing	It tests the entire system, including product addition, order creation, and processing.
+# B	Integration Testing	It tests how different components (Cart and Order) work together.
+# def test__with_stub_cart	Top-Down Testing	Uses a stub (StubCart) to replace an unimplemented lower-level module.
+# def calculate_total	Bottom-Up Testing	This function is a low-level unit, tested independently before integration.
