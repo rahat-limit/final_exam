@@ -213,4 +213,6 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 # H	✅ Correct binary search implementation. Same as G.	OK Case
 
 
+# скинь опции где choose для 9 и 10 
+
 
