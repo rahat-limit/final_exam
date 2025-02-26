@@ -2,18 +2,15 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import r2_score
 
-# question 4
 
 df = pd.read_csv('./data/Dataset.txt', header=None,
                  names=['Player', 'Penalty', 'FreeKick', 'Corner', 'Target'])
+
 
 m = df.shape[0]
 # Extract features and target
 X = df[['Penalty', 'FreeKick', 'Corner']].values
 y = df['Target'].values
-
-# Add an intercept (bias) term (a column of ones)
-X = np.concatenate([np.ones((m, 1)), X], axis=1)
 
 # -----------------------------
 # Define helper functions
@@ -63,7 +60,6 @@ results = {}
 for n in [1, 10, 100, 1000]:
     cost, theta_vals, r2, preds = run_experiment(n)
     results[n] = (cost, theta_vals, r2, preds)
-
 
 
 
