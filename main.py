@@ -189,5 +189,11 @@ F: Book Management
 # strCTO	Hungarian
 # AddDepartment	Pascal
 
+#Question 9 
+# Test Case	Test Type
+# A (test_end_to_end_order_process)	End-to-End Test
+# B (test__with_stub_cart)	Unit Test with Stub
+# def test__with_stub_cart	Stub-based Test
+# def calculate_total	Unit Test
 
 
