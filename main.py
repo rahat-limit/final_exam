@@ -150,3 +150,11 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 
 # Predictions for first 10 rows: [1 1 0 1 0 1 0 1 0 1]
 # Number of 1s in the first 10 predictions = 6 Answer:6 
+
+#Question 4 
+# a4 = [0.991, 0.009] (округлено до 3 знаков)
+# a3.min() = -0.987 (округлено до 3 знаков)
+# W4.max() = -1.09 (округлено до 2 знаков)
+# W3.min() = -2.37 (округлено до 2 знаков)
+# Loss after 10000 epochs = 0.009
+# General Conclusion = "NN predicts image of dog" (нейросеть предсказала изображение собаки)
