@@ -158,3 +158,13 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 # W3.min() = -2.37 (округлено до 2 знаков)
 # Loss after 10000 epochs = 0.009
 # General Conclusion = "NN predicts image of dog" (нейросеть предсказала изображение собаки)
+
+#Question 5
+# Accuracy: 0.992
+# F1-score (class 0): 0.993
+# F1-score (class 1): 0.978
+# F1-score (class 2): 0.993
+
+
+
+
