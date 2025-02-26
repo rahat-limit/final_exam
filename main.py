@@ -224,3 +224,14 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 # B	Integration Testing	It tests how different components (Cart and Order) work together.
 # def test__with_stub_cart	Top-Down Testing	Uses a stub (StubCart) to replace an unimplemented lower-level module.
 # def calculate_total	Bottom-Up Testing	This function is a low-level unit, tested independently before integration.
+
+# 10
+A → ✅ OK Case	
+B → ❌ IndentationError	
+C → ❌ Logical Error	
+D → ❌ Undefined Variable Bug	
+E → ❌ Comparison Bug	
+F → ❌ Wrong Loop Condition	
+G → ✅ OK Case	
+H → ✅ OK Case
+
