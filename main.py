@@ -216,3 +216,5 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 # скинь опции где choose для 9 и 10 
 
 
+
+#  фотки в папке
