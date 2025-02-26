@@ -141,3 +141,12 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 # 10	5766668	[0, -54, 839, -47, -31, 1001, 1080, 436, 283]
 # 100	5579355	[0, 50, 230, 125, 192, 1244, 1897, 18, 63]
 # 1000	5537726	[0, -17, -520, 119, 228, 1231, 2651, -64, 200]
+
+#question 3
+# Results table:
+# N=100, alpha=0.1, lambda=0.1: Cost=0.28, Max|theta|=1.61
+# N=1000, alpha=0.2, lambda=1.0: Cost=0.16, Max|theta|=4.59
+# N=10000, alpha=0.3, lambda=10.0: Cost=0.33, Max|theta|=2.02
+
+# Predictions for first 10 rows: [1 1 0 1 0 1 0 1 0 1]
+# Number of 1s in the first 10 predictions = 6 Answer:6 
