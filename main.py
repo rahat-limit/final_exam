@@ -122,6 +122,11 @@ for i, val in enumerate(theta):
     print(f"theta{i} = {val:.3f}")
 
 print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
+# =============
+
+# перепроверь 9 и 10, я фотки кинул в папку. таких ответов как у тя нету тут
+
+# =============
 
 #Question 1
 # 1)Mean (SRS): 50.60
@@ -177,6 +182,35 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 # |-----------|------|------------|--------|-------------|-----------------|-----------------|---------------|
 # |   25-34   |  384 |     0.256  |  0.022 |     0.024   | (0.212, 0.300)  | (0.210, 0.302)  |      1.125    |
 # |   35-44   |  336 |     0.224  |  0.023 |     0.024   | (0.179, 0.269)  | (0.177, 0.271)  |      1.120    |
+
+#Question 8 
+
+# Variable Name	Naming Convention
+# intEmployeeID	Hungarian
+# employeeID	Pascal
+# setEmployeeID	Pascal
+# strDepartmentName	Hungarian
+# strCEO	Hungarian
+# strCTO	Hungarian
+# AddDepartment	Pascal
+
+#Question 9 
+# Test Case	Test Type
+# A (test_end_to_end_order_process)	End-to-End Test
+# B (test__with_stub_cart)	Unit Test with Stub
+# def test__with_stub_cart	Stub-based Test
+# def calculate_total	Unit Test
+
+#Question 10
+
+# A	✅ Correct factorial implementation.	OK Case
+# B	❌ Indentation error in Python (if is not indented).	Bug Case
+# C	❌ The loop runs from 0 to n-1, making multiplication always 0 since 0 * anything = 0.	Bug Case
+# D	❌ return result_val is incorrect; result_val is not defined. Should be return result.	Bug Case
+# E	❌ Binary search logic is incorrect: It moves left = mid + 1 when arr[mid] > target, which is wrong. Should be right = mid - 1.	Bug Case
+# F	❌ Condition while (left < right) should be while (left <= right), otherwise, it might skip the correct index.	Bug Case
+# G	✅ Correct binary search implementation.	OK Case
+# H	✅ Correct binary search implementation. Same as G.	OK Case
 
 
 
