@@ -196,4 +196,16 @@ F: Book Management
 # def test__with_stub_cart	Stub-based Test
 # def calculate_total	Unit Test
 
+#Question 10
+
+# A	✅ Correct factorial implementation.	OK Case
+# B	❌ Indentation error in Python (if is not indented).	Bug Case
+# C	❌ The loop runs from 0 to n-1, making multiplication always 0 since 0 * anything = 0.	Bug Case
+# D	❌ return result_val is incorrect; result_val is not defined. Should be return result.	Bug Case
+# E	❌ Binary search logic is incorrect: It moves left = mid + 1 when arr[mid] > target, which is wrong. Should be right = mid - 1.	Bug Case
+# F	❌ Condition while (left < right) should be while (left <= right), otherwise, it might skip the correct index.	Bug Case
+# G	✅ Correct binary search implementation.	OK Case
+# H	✅ Correct binary search implementation. Same as G.	OK Case
+
+
 
