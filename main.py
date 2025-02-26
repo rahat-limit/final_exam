@@ -164,7 +164,13 @@ print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
 # F1-score (class 0): 0.993
 # F1-score (class 1): 0.978
 # F1-score (class 2): 0.993
-
+#Question 6
+A: User Roles
+B: User Requirements
+C: Security Requirements
+D: Operational Constraints
+E: User Management
+F: Book Management
 
 
 
