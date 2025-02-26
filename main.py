@@ -122,3 +122,15 @@ for i, val in enumerate(theta):
     print(f"theta{i} = {val:.3f}")
 
 print(f"\nr2-score value (rounded to 3 decimals): {r2:.3f}")
+
+#Question 1
+# 1)Mean (SRS): 50.60
+# 2)Standard Error (SRS): 6.89
+# 3) Confidence Interval Upper (SRS): 64.66
+#  Confidence Interval Lower (SRS): 36.54
+# 1)Mean (Clustered): 50.60
+# 2)Standard Error (Clustered): 7.16
+# 3)d-value: 1.04
+# 4)d-squared: 1.08
+# 5)roh: 0.01
+# 6)N_eff: 15.85
