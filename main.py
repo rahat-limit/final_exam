@@ -178,5 +178,16 @@ F: Book Management
 # |   25-34   |  384 |     0.256  |  0.022 |     0.024   | (0.212, 0.300)  | (0.210, 0.302)  |      1.125    |
 # |   35-44   |  336 |     0.224  |  0.023 |     0.024   | (0.179, 0.269)  | (0.177, 0.271)  |      1.120    |
 
+#Question 8 
+
+# Variable Name	Naming Convention
+# intEmployeeID	Hungarian
+# employeeID	Pascal
+# setEmployeeID	Pascal
+# strDepartmentName	Hungarian
+# strCEO	Hungarian
+# strCTO	Hungarian
+# AddDepartment	Pascal
+
 
 
