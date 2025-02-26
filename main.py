@@ -15,15 +15,15 @@ y = df['Target'].values
 # -----------------------------
 # Define helper functions
 # -----------------------------
-def compute_cost(X, y, theta):
-    """
+def compute_cost(X, y, theta): 
+    """dw
     Compute the cost for linear regression.
     NOTE: Here we use 1/m (not 1/(2*m)) so that the cost
     matches the values in your reference table.
     """
     m = len(y)
     predictions = X.dot(theta)
-    cost = (1/m) * np.sum((predictions - y)**2)
+    cost = (1/m) * np.sum((predictions - y)**2) 
     return cost
 
 def gradient_descent(X, y, theta, alpha, iterations):
